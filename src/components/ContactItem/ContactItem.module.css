@@ -1,0 +1,22 @@
+.span_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.item_span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.item_button {
+  margin: 10px;
+  height: 30px;
+  border-radius: 999999px;
+  border: none;
+  box-shadow: 11px 13px 24px -10px rgba(66, 68, 90, 1);
+  transition: all 0.2s ease-in-out;
+  background-color: chocolate;
+}
+.item_button:hover {
+  transform: scale(1.05);
+}

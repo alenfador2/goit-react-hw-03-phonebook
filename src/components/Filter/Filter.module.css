@@ -1,0 +1,16 @@
+.filter_input {
+  width: 300px;
+  margin-left: 30px;
+  border-radius: 9999999px;
+  border: none;
+  height: 20px;
+  margin-top: 15px;
+  outline: none;
+  padding-left: 15px;
+  box-shadow: 11px 13px 24px -6px rgba(66, 68, 90, 1);
+}
+.filter_label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-left: 30px;
+}

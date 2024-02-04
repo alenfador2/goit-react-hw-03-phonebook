@@ -13,3 +13,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+  margin-inline: auto;
+  margin-top: 40px;
+  background-color: beige;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 11px 13px 24px -6px rgba(66, 68, 90, 1);
+}

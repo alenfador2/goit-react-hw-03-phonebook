@@ -1,0 +1,36 @@
+.contact_container {
+  width: 300px;
+  margin-inline: 30px auto;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.username_input,
+.usertel_input {
+  border-radius: 9999999px;
+  height: 20px;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  box-shadow: 11px 13px 24px -6px rgba(66, 68, 90, 1);
+}
+
+.username_input::placeholder,
+.usertel_input::placeholder {
+  color: lightgray;
+}
+
+.add_button {
+  width: 80px;
+  height: 40px;
+  background-color: aquamarine;
+  margin-inline: auto;
+  border-radius: 999999px;
+  border: none;
+  box-shadow: 11px 13px 24px -6px rgba(66, 68, 90, 1);
+  transition: all 0.3s ease-in-out;
+}
+.add_button:active {
+  transform: scale(1.1);
+}
