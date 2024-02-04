@@ -6,7 +6,7 @@ function ContactList({ filterContacts, onDelete }) {
   return (
     <>
       <ul className={css.contact_list}>
-        {filterContacts().map(({ id, number, name }) => (
+        {filterContacts() && filterContacts().map(({ id, number, name }) => (
           <ContactItem
             id={id}
             key={id}
